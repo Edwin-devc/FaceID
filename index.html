@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sign-In via Face Recognition</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Face Recognition/Authentication</h1>
+		<center>
+			<button onclick="enrollNewUser()" class="sign-btn">Sign-In</button>
+			<button onclick="authenticateUser()" class="log-btn">Log-In</button>
+		</center>
+		
+	</div>
+	
+	<div id="faceio-modal"></div>
+	<script src="https://cdn.faceio.net/fio.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
